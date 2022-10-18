@@ -3,7 +3,7 @@
 #include "ThingSpeak.h"
 
 const char* ssid="SSN";
-const char* passwd="Ssn1!Som2@Sase3#";
+const char* passwd="";
 
 #define RXp2 16//UART 
 #define TXp2 17//UART
@@ -16,9 +16,9 @@ unsigned long channel=1;
  * API KEYS
  
  */
-const char* API="E7MWACFPOWLT8SOJ";
-const char* API_H="ETD3X1WGSLDWJ9TF";
-const char * API_S="TCKMZMCA3EI1FEDA";
+const char* API="";
+const char* API_H="";
+const char * API_S="";
 
 String header;
 /*Time to update graph*/
